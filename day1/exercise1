@@ -1,0 +1,18 @@
+lista = [1, 2, 3, 5, 4, 6, 22, 4, 7, 13, 12]
+
+
+#6a. Faça um programa que procura e indica se existe o número 4 na lista.
+
+for element in lista:
+  if element == 4:
+   print(f"O numero 4 existe {lista.count(element)} vezes")
+
+
+#6b. Faça um programa que peça ao utilizador um numero e verifique se este existe na lista. caso não
+#exista, imprima "nao existe". Caso exista, indica "existe"
+
+numero= eval(input("Insira um numero: "))
+if numero in lista:
+    print(f"O numero {numero} exista na lista")
+else:
+    print(f"O numero {numero} não existe na lista")
