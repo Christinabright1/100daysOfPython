@@ -1,0 +1,29 @@
+10a. Peça ao utilizador para inserir dois numeros. Indique qual é o maior
+10b. Peça ao utilizador para inserir dois numeros inteiros a e b, onde b deve ser maior que a; caso
+não respeite a condição, peça novamente dois números. Some todos os numeros inteiros entre a e b
+(incluindo os números).
+
+
+
+a= eval(input("Enter a number: "))
+b= eval(input("Enter a number: "))
+if a-b > 0:
+  print("a is greater than b")
+else:
+  print("b is greater  than a")
+
+
+lista = []
+
+while not(b > a):
+  a= eval(input("Enter a number: "))
+  lista.append(a)
+  b= eval(input("Enter a number: "))
+  lista.append(b)
+print(lista)
+
+soma= 0
+for i in range(a,b+1):
+  print(i)
+  soma += i
+print(soma)
