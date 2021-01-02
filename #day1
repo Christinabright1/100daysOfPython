@@ -1,0 +1,25 @@
+9b. Faça um programa que pede um inteiro positivo n (enquanto não seja inserido peça novamente).
+Imprima o numero
+9b) Usando o programa anterior, calcule a soma dos n primeiros inteiros.
+9c) Usando o programa anterior, calcule o fatorial de n (multiplicação dos n primeiros inteiros)
+
+n= eval(input("Insira um numero: "))
+soma =0
+while not(n > 0):
+  print("O numero não é positivo")
+  n= eval(input("Insira um numero: "))
+print(n)
+
+contador = 1
+while contador <= n:
+  soma += contador
+  contador +=1
+print(f"Soma até n é {soma}")
+
+#9c) Usando o programa anterior, calcule o fatorial de n (multiplicação dos n primeiros inteiros)
+
+factorial =1
+if n >=1:
+ for i in range( 1, n+1):
+   factorial = factorial * i
+print(f"o factorial de {n} é {factorial}")
