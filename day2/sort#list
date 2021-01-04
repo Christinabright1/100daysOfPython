@@ -1,0 +1,22 @@
+#Create a lista
+
+my_lista= ['a','b','c','d']
+#4*4  items and each item take 4 shels in our memory
+#It means that we are using 16bytes 
+
+print(my_lista[2])
+#methods list
+
+#The sort() method sorts the list ascending by default.
+#list.sort(reverse=True|False, key=myFunc)
+#reverse	Optional. reverse=True will sort the list descending. Default is reverse=False
+#key	Optional. A function to specify the sorting criteria(s)
+#sort list
+my_list= ['w','b','c','d']
+my_list.sort(key=None, reverse=False)
+print(my_list)
+
+color_list=["Red", "Blue", "Green", "Black"]
+
+color_list.sort(key=None, reverse=False)
+print(color_list)
