@@ -1,0 +1,10 @@
+#Return number of occurrences of value
+
+
+#Criando um set vazio
+
+setNumeros = set()
+#Como criar e adicionar um elemento a um set existente?
+
+listaDeVotos = ["Maria", "Ze", "Joao", "Ze", "Maria", "Ze", "Ze"]
+print(set(listaDeVotos))
