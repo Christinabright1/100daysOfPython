@@ -1,0 +1,13 @@
+example= set()
+example.add(44)
+example.add(33)
+print(example)
+
+s= set()
+for i in range (1, 8):
+    country= input("Enter country:")
+    s.add(country)
+print(s)
+
+
+
