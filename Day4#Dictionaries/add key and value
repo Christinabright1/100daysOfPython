@@ -1,0 +1,9 @@
+#"Crie um programa que peça nomes e idades, e vá preenchendo o dicionario. Quando inserir como nome 'fim' deverá terminar a inserção e deverá imprimir o dicionario. "
+nome = ""
+my_dic= {}
+while nome != 'fim':
+  nome= input("Insira o nome:")
+  if nome != 'fim':
+    idade= input("Insira a idade:")
+    my_dic[nome] = idade
+print(my_dic)
