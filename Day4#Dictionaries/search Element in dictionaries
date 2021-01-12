@@ -1,0 +1,19 @@
+dictionarie= {
+  'Manuel': ['caro','bola'],
+  "Maria": ["boneca"],
+  'Luis': ['bola','boneca','pião']
+}
+#Add pião to Manuel
+dictionarie["Manuel"].append('pião')
+print(dictionarie)
+
+#Check if Manuel tem pião
+
+"pião" in  dictionarie['Manuel']
+print(dictionarie)
+
+#Imprime todo que tem um bola
+
+for nome, list in dictionarie.items():
+  if 'bola' in list:
+     print(nome)
