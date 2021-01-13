@@ -1,0 +1,23 @@
+"Defina uma função que pede uma temperatura ao utilizador\n",
+    "Defina uma função que converte uma temperatura em graus Celcius em graus Fahrenheit\n",
+    "Use as funções anteriores para pedir e imprimir a correspondente temperatura em Fahrenheit.\n",
+    
+    
+    def ler_temperatura():
+  while True:
+    try:
+      temp= int(input("Insira um numero:"))
+      return temp
+    except:
+      print("Insira um numero: ")
+
+def converter_temperatura(celcius):
+  fahr = celcius * 1.8 + 32
+  return fahr
+
+def apresentação_resultado(a,b):
+  print(f"O fahr de {a} é {b}")
+  
+numero= ler_temperatura()
+resultado= converter_temperatura(numero)
+apresentação_resultado(numero, resultado)
