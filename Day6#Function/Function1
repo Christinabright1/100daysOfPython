@@ -1,0 +1,19 @@
+#ler_inteiro
+
+def ler_inteiro():
+  while True:
+    try:
+      numero= int(input("Insira um numero:"))
+      return numero
+    except:
+      print("Não insiriou um numero: ")
+
+def quadrado(n):
+   return n*n
+
+def aprentado_dado(a,b):
+  print(f"O quadrado de {a} e {b}")
+
+numero= ler_inteiro()
+resultado= quadrado(numero)
+aprentado_dado(numero, resultado)
