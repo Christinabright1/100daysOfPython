@@ -1,0 +1,10 @@
+#Crie a função `pesquisaNegativo` que recebe uma lista de números e indica se existe algum número negativo
+
+def pesquisaNegativo(lista):
+  numNegativo= []
+  for value in lista:
+    if value < 0:
+      numNegativo.append(value)
+  return numNegativo
+numList= [2,4,-10,9,-2]
+print(pesquisaNegativo(numList))
