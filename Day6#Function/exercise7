@@ -1,0 +1,11 @@
+#Crie a função quadrados, que recebe uma lista e retorna um dicionario em que a chave é o número e o valor o quadrado desse mesmo número.
+
+def quadrados(lista):
+  square_element= []
+  for i in lista:
+    square_element.append(i**2)
+  #return square_element
+  list_dictionar= dict(zip(lista, square_element))
+  return list_dictionar
+lista= [2,4,6,5,8]  
+print(quadrados(lista))
