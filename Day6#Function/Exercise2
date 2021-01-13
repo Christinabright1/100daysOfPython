@@ -1,0 +1,11 @@
+Defina uma função que recebe uma temperatura em Celcius e retorna o seu valor em Fahrenheit.
+
+
+
+#Defina uma função que recebe uma temperatura em Celcius e retorna o seu valor em Fahrenheit.
+def Ffahr(celcius):
+  fahr = celcius * 1.8 + 32
+  return fahr
+
+print(Ffahr(10))
+ 
