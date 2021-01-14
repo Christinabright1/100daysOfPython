@@ -1,0 +1,1 @@
+Crie a função idade que recebe o dia, mês e ano de nascimento de uma pessoa e retorna a idade. Utilize o módulo datetime para saber o dia, mes e ano do dia de hoje, e comparar para ver se já fez anos. Para já ter feito anos deverá ter nascido num mês anterior ao atual, ou no mesmo mes mas num dia anterior ou igual ao atual.
