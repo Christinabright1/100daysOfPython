@@ -1,0 +1,11 @@
+
+Crie função `obterStringMaisComprida()` que recebe uma lista de strings e retorna a mais comprida:\n",
+    "* Deverá usar a função len() para saber qual o comprimento de uma string.\n",
+    "* Não deverá usar a função max() do Python\n",
+def  obterStringMaisComprida(word):
+    op=[]
+    for i in word:
+        op.append(len(i))
+    l=op.index(max(op))
+    return word[l]
+print( obterStringMaisComprida(["Bom dia", "Olá!", "Viva, como estás?"]))
