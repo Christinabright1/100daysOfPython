@@ -1,0 +1,9 @@
+"## Inserir nota\n",
+    "* peça para inserir uma nota entre 0 e 20. \n",
+    "* Enquanto não respeitar, volte a pedir"
+    
+    x=-1
+while not(0 <= x <= 20):
+  x= eval(input("Insira um numero "))
+ 
+print("Obrigado")
