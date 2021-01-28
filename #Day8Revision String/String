@@ -1,0 +1,13 @@
+a = "Python"
+print(a[0])
+print(a[-1])
+
+b= "Viva Python!"
+print(b.split())
+
+#Insira o seu nome e o seu idade
+
+dados = input("Insira nome a idade separados: ")
+
+nome , idade = dados.split()
+print(nome)
