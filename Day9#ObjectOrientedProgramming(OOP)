@@ -1,4 +1,6 @@
 OOP
+Objects are instance of class
+Classes are templates for Objects
 -Everything in Python is an Object(and has a type)
 *can create new Objects of some Type
 *can manipulate objects
