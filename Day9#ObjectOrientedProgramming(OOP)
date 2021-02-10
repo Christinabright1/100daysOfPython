@@ -1,0 +1,19 @@
+OOP
+-Everything in Python is an Object(and has a type)
+*can create new Objects of some Type
+*can manipulate objects
+*can destroy objects
+   _use del or just "forget"
+   
+ CREATING AND USING YOUR OWN CLASSES
+ -make a distinction between creating a class and using instance of class
+ Creating a class involve 
+ *define a class name
+ *define a class attribute
+ *for example,someone wrote code to implement a list class
+ -Using the class involve
+ *creating a new instance of objects
+ *doing operation of instance
+ 
+ DEFINE HOW TO CREATE THE INSTANCE OF A CLASS
+ 
