@@ -1,7 +1,7 @@
 #Given the below class:
 class Cat:
     species = 'mammal' #object attribute
-    def __init__(self, name, age):
+    def __init__(self, name, age): #self refer to Cat
         self.name = name
         self.age = age
         
