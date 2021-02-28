@@ -1,0 +1,13 @@
+
+class PlayerCharacter:
+  def __init__(self, name):
+    self.name = name
+  
+  def run(sef):
+    print("run")
+
+player1 = PlayerCharacter('cyndi')
+player2 = PlayerCharacter("Tom")
+print(player1.name)
+print(player2.name)
+#self refer to player1
