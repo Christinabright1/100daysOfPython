@@ -1,0 +1,6 @@
+texto='Viva, ola, como estas ? Espero que bem'
+#get each character of the string
+for char in texto:
+    print(char)
+#get the len of each character on str
+print(list(map(len, texto.split())))
