@@ -1,0 +1,14 @@
+#soma 2 numúro
+def  soma2numero(a,b):
+    c=a+b
+    return c
+#leitura de dados
+def leituraDado():
+    n= int(input("Insira um numero:"))
+    return n
+a= leituraDado()
+b= leituraDado()
+
+#apresentação de dados
+soma= soma2numero(a,b)
+print(f"Soma de {a,b} é {soma}")
