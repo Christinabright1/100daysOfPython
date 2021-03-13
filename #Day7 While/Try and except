@@ -1,0 +1,17 @@
+#try and except
+'''
+try:
+    <do something>
+except Exception:
+    <handle the error>
+    '''
+#While True circlo infinito , vai continuar sempre a pedir , 
+#e para quando eu insira o numero 22, e o break vai terminar o programa
+while True:
+    try:
+        num= int(input("Insira um numero: "))
+        if num == 22:
+            print(f" Obrigado")
+            break
+    except:
+        print("O numero não é um inteiro")
