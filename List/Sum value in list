@@ -1,0 +1,6 @@
+def calculaSoma(lista):
+    soma=0
+    for elemento in lista:
+        soma= soma +elemento
+    return soma
+calculaSoma([2,3,4,5])
