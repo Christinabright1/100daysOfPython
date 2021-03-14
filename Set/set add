@@ -1,0 +1,7 @@
+#set
+lista= [1,1,1,2,3,3,2,2,7]
+print(set(lista))
+setNum= set(lista)
+#add value to setNum
+setNum.add(10)
+print(setNum)
