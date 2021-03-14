@@ -1,0 +1,16 @@
+We can order list by 
+
+#ordenação
+lista= [10,20,3,-4]
+lista.sort(reverse=True)
+print(lista)
+
+listadeNome= ['Ze','Ana','Victor','Nuno']
+listadeNome.sort()
+listadeNome.sort(reverse=True)
+print(listadeNome)
+
+#Ordenar em função de len
+listadeNome= ['Ze','Ana','Victor','Nuno']
+listadeNome.sort(key=len, reverse=True)
+print(listadeNome)
