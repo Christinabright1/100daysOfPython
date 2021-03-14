@@ -1,0 +1,5 @@
+for elemento in set(lista):
+    print(elemento, end=" ")
+#contar quantas vez tem elemento na lista
+for element in set(lista):
+    print(f"{element} ocorre lista.count(element)")
