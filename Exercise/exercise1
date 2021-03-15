@@ -1,0 +1,24 @@
+Crie a função listar_vogais() que recebe uma lista de nomes e imprime uma lista ordenada das vogais presentes nos nomes da lista. 
+Não deverá diferenciar maiúsculas de minúsculas. Não deverá repetir letras.
+
+lista = ["eva", "Maria", "Antonio"]
+list_vowel = []
+#convert lista into lowerCase
+
+vowel=('a','e','i','o','u')
+for word in lista:
+    for char in word:
+        if char in vowel:
+            list_vowel += char
+            
+#sort vowel and set to remove duplicate vowel
+remove_duplicate = list(set(list_vowel))
+remove_duplicate.sort()
+print(remove_duplicate)
+
+
+#new_menu = ['a', 'a', 'a', 'e', 'i', 'i', 'o', 'o']
+#final_new_menu = list(set(new_menu))
+#final_new_menu.sort()
+
+#print(final_new_menu)
