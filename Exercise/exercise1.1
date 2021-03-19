@@ -1,0 +1,18 @@
+#loop through the list to get each word
+#loop throught the word to get each character
+#check if character is vowel(output all vowels in the words)
+#if vowel(char) is not in list_vowel add it to list_vowel
+lista = ["Eva", "Maria", "Antonio"]
+def lista_vowels(lista):
+  vowel=('a','e','i','o','u')
+  list_vowel= []
+  for word in lista:
+    word_lower= word.lower() 
+    for char in word_lower:
+      if char in vowel:
+        if char not in list_vowel:
+          list_vowel.append(char)
+  list_vowel.sort()
+  return list_vowel
+
+print(lista_vowels(lista))
