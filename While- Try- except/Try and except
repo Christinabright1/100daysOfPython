@@ -1,0 +1,17 @@
+"Escreva um programa que, recorrendo a um ciclo while, imprime os inteiros de 1 a 10"
+
+n = 0
+while n <= 0 or n > 10 :
+    try:
+        n = int(input(" Insira um número entre 1 e 10: "))
+    except:
+        pass # instrução que não faz nada
+print("Obrigado")
+
+1. input() retorna uma string, sequencia de caeateres inseridos pelo utilizador2. 
+A função int() converte uma string de dígitos (por exemplo, "123") num inteiro. Por exemplo, int("123") retorna o numero 123. 
+3. Se o utilizador inserir "ola", int("ola") vai dar erro, e o programa termina.
+4. Para prevenir erros associados eventuais inserção de carateres alfabéticos, usa se o try.. except.
+Se dentro do try ocorrer um erro, em vez de o codigo parar o codigo do except é executado. 
+Tipicamente coloca se uma instrucao dentro do except do tipi print("nao inseriu um numero").
+Neste caso a instrucao pass é uma instrucao que nao faz nada, literalmente.
