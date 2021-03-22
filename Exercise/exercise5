@@ -1,0 +1,13 @@
+Count white space and new line in string and return them in dictionary
+
+
+
+def dictionary(string):
+  result= {'\n': 0, ' ': 0}
+  for el in string:
+   if el == '\n' or el == ' ':
+     result[el] += 1
+  return result
+
+texto = "Era uma vez um\nmenino que gostava \nde passear\npelo campo."
+print(dictionary(texto))
