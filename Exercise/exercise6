@@ -4,3 +4,18 @@ Insira um código com 4 caracteres alfabeticos, todos diferentes:
 Enquanto não satisfizer o requisito (por exemplo, se inserir digitos ou outros carateres não alfabéticos, ou se não totalizarem 4 carateres), deverá pedir novamente. Quando satisfizer a condição, deverá imprimir obrigado. 
 
 Nota: a mensagem impressa deve ser exatamente igual, senão o teste não passa. E não deve imprimir mensagens alternativas tipo, errou, ou tente novamente!
+
+
+def insira():
+  while True:
+    word= input("Insira uma palavra com 4 caracteres alfabeticos diferentes: ")
+    #convert a word into lowercase
+   
+    #check if then of word is equal 4 and it is digital and alpha
+    if len(word) == 4 and word.isalpha():
+      #convert a string into list
+      lista_char= list(word) 
+      #remove the duplicate word
+      if 4 == len(set(lista_char)):
+        break
+  print("obrigado")
