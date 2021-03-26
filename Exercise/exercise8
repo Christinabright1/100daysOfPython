@@ -1,0 +1,16 @@
+#check if the numero i negativ and divide by 2
+
+lista= []
+n= 0
+while n >= 0 or not (n % 2 ==0):
+  try:
+    n = int(input("Insira um numero: "))
+  except:
+    pass
+
+for i in range(n, 0):
+  if i %2 !=0:
+    lista.append(i)
+print(lista)
+
+
